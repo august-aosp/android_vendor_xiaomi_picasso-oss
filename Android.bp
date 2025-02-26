@@ -533,23 +533,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libsn100u_fw",
-	owner: "xiaomi",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib/libsn100u_fw.so"],
-			shared_libs: [ ],
-		},
-	},
-	compile_multilib: "32",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libxlog",
 	owner: "xiaomi",
 	strip: {
@@ -3561,8 +3544,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libsn100u_fw-64SYMLINK",
-	stem: "libsn100u_fw",
+	name: "libsn100u_fw",
 	owner: "xiaomi",
 	strip: {
 		none: true,
