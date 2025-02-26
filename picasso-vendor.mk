@@ -478,8 +478,6 @@ PRODUCT_PACKAGES += \
     libvideofilter_only \
     libvidhance \
     libxmi_high_dynamic_range \
-    libsns_device_mode_skel-64SYMLINK \
-    libsns_low_lat_stream_skel-64SYMLINK \
     sensors.elliptic \
     sensors.ssc \
     sensors.touch \
