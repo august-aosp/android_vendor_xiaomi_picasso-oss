@@ -481,7 +481,6 @@ PRODUCT_PACKAGES += \
     sensors.touch \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
     vendor.qti.hardware.sensorscalibrate@1.0 \
-    vendor.xiaomi.hardware.fx.tunnel@1.0 \
     capi_v2_aptX_CLHDADV_Encoder \
     capi_v2_aptX_CLHDAD_Speech_Decoder \
     libMIAIHDR_skel \
