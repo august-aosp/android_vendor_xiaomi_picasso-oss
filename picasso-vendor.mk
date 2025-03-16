@@ -276,7 +276,6 @@ PRODUCT_PACKAGES += \
     libmulawdec \
     libresampler \
     libsmwrapper \
-    libsn100u_fw \
     libxlog \
     com.qti.eeprom.picasso_front_depth \
     com.qti.eeprom.picasso_front_depth_mono \
@@ -449,6 +448,7 @@ PRODUCT_PACKAGES += \
     libsdk_sr \
     libsensorcal \
     libsensorslog \
+    libsn100u_fw \
     libsnpe_adsp \
     libsnpe_dsp_domains \
     libsnpe_dsp_domains_system \
@@ -518,6 +518,5 @@ PRODUCT_PACKAGES += \
     sscrpcd
 
 PRODUCT_PACKAGES += \
-    vendor_lib64_libsn100u_fw_so \
     vendor_lib64_rfsa_adsp_libsns_device_mode_skel_so \
     vendor_lib64_rfsa_adsp_libsns_low_lat_stream_skel_so
