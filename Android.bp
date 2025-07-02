@@ -4,6 +4,7 @@
 
 soong_namespace {
     imports: [
+        "device/xiaomi/picasso",
         "vendor/xiaomi/sm8250-common",
         "hardware/qcom-caf/common/libqti-perfd-client",
         "hardware/qcom-caf/sm8250",
@@ -480,7 +481,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "libtinyalsa",
                 "libtinycompress",
-                "libaudioroute",
+                "libaudioroute-v34",
                 "libaudioutils",
                 "libexpat",
                 "libhidlbase",
@@ -661,7 +662,7 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libcutils",
                 "libtinyalsa",
-                "libaudioroute",
+                "libaudioroute-v34",
                 "libexpat",
                 "libc++",
                 "libc",
