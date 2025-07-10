@@ -465,7 +465,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "audio.primary.picasso",
+    name: "audio.primary.lito",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -473,7 +473,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm: {
             srcs: [
-                "proprietary/vendor/lib/hw/audio.primary.picasso.so",
+                "proprietary/vendor/lib/hw/audio.primary.lito.so",
             ],
             shared_libs: [
                 "libbase",
@@ -533,37 +533,6 @@ cc_prebuilt_library_shared {
     },
     compile_multilib: "32",
     relative_install_path: "hw",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "liba2dpoffload_picasso",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/liba2dpoffload_picasso.so",
-            ],
-            shared_libs: [
-                "libaudioutils",
-                "libcutils",
-                "liblog",
-                "libtinyalsa",
-                "libtinycompress",
-                "libaudioroute",
-                "libexpat",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
     prefer: true,
     soc_specific: true,
 }

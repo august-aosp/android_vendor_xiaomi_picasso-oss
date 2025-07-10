@@ -246,9 +246,8 @@ PRODUCT_PACKAGES += \
     libqtigef \
     libssrec \
     vendor.qti.hardware.audiohalext@1.0 \
-    audio.primary.picasso \
+    audio.primary.lito \
     sound_trigger.primary.lito \
-    liba2dpoffload_picasso \
     libadm \
     libadpcmdec \
     libaudio_log_utils \
