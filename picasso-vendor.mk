@@ -68,10 +68,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/picasso/proprietary/vendor/etc/camera/det_quantize.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/det_quantize.dlc \
     vendor/xiaomi/picasso/proprietary/vendor/etc/camera/eisoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/eisoverridesettings.txt \
     vendor/xiaomi/picasso/proprietary/vendor/etc/camera/eyelineblush.cng:$(TARGET_COPY_OUT_VENDOR)/etc/camera/eyelineblush.cng \
+    vendor/xiaomi/picasso/proprietary/vendor/etc/camera/facedetectpp_0_5_2_model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/facedetectpp_0_5_2_model \
     vendor/xiaomi/picasso/proprietary/vendor/etc/camera/goturn_search_dsp.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/goturn_search_dsp.dlc \
     vendor/xiaomi/picasso/proprietary/vendor/etc/camera/goturn_target_dsp.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/goturn_target_dsp.dlc \
     vendor/xiaomi/picasso/proprietary/vendor/etc/camera/hdrd_ui9_params.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/hdrd_ui9_params.config \
-    vendor/xiaomi/picasso/proprietary/vendor/etc/camera/megviifacepp_0_5_2_model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/megviifacepp_0_5_2_model \
     vendor/xiaomi/picasso/proprietary/vendor/etc/camera/mibokeh_712_opencl.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mibokeh_712_opencl.bin \
     vendor/xiaomi/picasso/proprietary/vendor/etc/camera/mibokeh_712_parameter.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mibokeh_712_parameter.bin \
     vendor/xiaomi/picasso/proprietary/vendor/etc/camera/model.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/model.dat \
@@ -361,9 +361,9 @@ PRODUCT_PACKAGES += \
     fingerprint.fpc.default \
     fingerprint.goodix.default \
     vendor.qti.hardware.sensorscalibrate@1.0-impl \
+    libFaceDetectpp-0.5.2 \
     libHalSuperSensorServer \
     libMIAIHDRhvx_interface \
-    libMegviiFacepp-0.5.2 \
     libSNPE \
     libSuperSensor \
     libSuperSensorCPU \
@@ -404,6 +404,7 @@ PRODUCT_PACKAGES += \
     libdng_sdk2vendor \
     libdualcam_optical_zoom_control \
     libdualcam_video_optical_zoom \
+    libfacedet \
     libflaw \
     libfocus \
     libft2vendor \
@@ -411,7 +412,6 @@ PRODUCT_PACKAGES += \
     libgf_hal \
     libgoodixhwfingerprint \
     libipebpsstriping \
-    libmegface \
     libmialgo_ie_capture \
     libmialgo_ie_preview \
     libmialgo_image_colourkeeping \
